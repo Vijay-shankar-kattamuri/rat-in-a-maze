@@ -2,7 +2,7 @@ import random
 from queue import Queue
 
 def generate_maze(rows, cols, wall_percentage):
-    maze = [['◌' for _ in range(cols)] for _ in range(rows)]
+    maze = [['◌' for _ in range(cols)]  for _ in range(rows)]
 
     # Set start and end points
     start_point = (0, 0)
